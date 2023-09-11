@@ -620,11 +620,11 @@ is-open {
     margin-bottom: 8px;
 }
 
-.form-input-wrappper-addition {
+.form-input-wrap-addition {
     margin-bottom: 16px;
 }
 
-.form-field-wrapper {
+form-field-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
