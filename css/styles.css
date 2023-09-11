@@ -826,6 +826,10 @@ is-open {
 
 }
 
+.comment-text-input {
+    margin-bottom: 16px;
+}
+
 .form-style::placeholder {
     font-family: Roboto, sans-serif;
     font-size: 12px;
