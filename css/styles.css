@@ -539,6 +539,11 @@ header {
     background-color: #31d0aa;
 }
 
+.footer-button:hover,
+.footer-button:focus {
+    background-color: #404bbf;
+}
+
 /*backdrop*/
 
 .backdrop {
@@ -647,6 +652,7 @@ form-field-wrapper {
 }
 
 .form-field-icon {
+    fill: var(--NAVY-BLUE, #2E2F42);
     position: absolute;
     left: 16px;
     top: 50%;
@@ -733,7 +739,6 @@ form-field-wrapper {
     font-family: Roboto, sans-serif;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-left: 8px;
 }
 
 .checkbox-label-text-addition {
@@ -813,7 +818,6 @@ form-field-wrapper {
     font-size: 16px;
     font-weight: 500;
     color: #FFFFFF;
-    margin-left: 80px;
     margin-bottom: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -842,12 +846,11 @@ input::placeholder {
     color: #ffffff;
 }
 
-.form-style-set {
+form-style-set {
     font-family: Roboto, sans-serif;
     font-weight: 500px;
     font-size: 16px;
     color: #FFFFFF;
-    border: 1px solid #FFFFFF;
     border-radius: 4px;
     background-color: #2E2F42;
 }
